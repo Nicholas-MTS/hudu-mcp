@@ -33,4 +33,4 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=10s --retries=3 \
 ENV NODE_ENV=production
 ENV PORT=8080
 
-CMD ["node", "dist/httpServer.js"]
+CMD ["node", "dist/httpserver.js"]
